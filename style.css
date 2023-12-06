@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(18,49,67);
+    margin:0;
+}
+.icon{
+    padding-left: 10%;
+    padding-top: 50px;
+}
+.heading{
+    display: inline-block;
+    padding-left: 10%;
+    font-size: 900%;
+    font-family: 'Sen',sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 0;
+    line-height: 0.9;
+    color: rgb(120,241,202);
+}
+.para{
+    /* background-color: brown; */
+    width: 40%;
+    block-size: inline-block;
+    padding: 11%;
+    padding-top: 0;
+    font-family: "Roboto",sans-serif;
+    margin-top:1%;
+    height: 100px;
+    position: relative;
+    display: flow-root;
+}
+.text{
+    font-size: x-large;
+    color: rgb(173,189,197);
+}
+.button{
+    color: rgb(18,49,67);
+    background-color: rgb(120,241,202);
+    font-size: x-large;
+    font-weight: 900;
+    height: 75px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.button:active{
+    background-color: rgba(121, 241, 203, 0.69);
+}
+.twittericon{
+    cursor: pointer;
+}
+.follow{
+    /* background-color: black; */
+    display: flex;
+    color: rgb(173,189,197);
+    font-size: 22px;
+    padding-left: 11%;
+    float: left;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.followtext{
+    padding-left:10px;
+}
+#photos{
+    position: absolute;
+    z-index: -1;
+}
+.person1{
+    margin-top: 35vh;
+    margin-left: 75%;
+}
+.person2{ 
+    margin-top: -5vh;
+    margin-left: 73%;
+}
+.person3{
+    margin-top: 3vh;
+    margin-left: 3%;
+}
+.person4{
+    margin-top: 60vh;
+    margin-left: 62%;
+}
+.person5{
+    margin-top: 0%;
+    margin-left: 61%;
+}
+.person6{
+    margin-top: 36vh;
+    margin-left: 48%;
+}
+@media screen and (min-width:500px) and (max-width:1000px) {
+    .person1{
+        margin-top: 17vh;
+        margin-left: 85%;
+        height: 100px;
+    }
+    .person2{
+        margin-top: -4vh;
+        margin-left: 80%;
+        height: 130px;
+    }
+    .person3{
+        margin-top: 2vh;
+        margin-left: 10%;
+        height: 90px;
+    }
+    .person4{
+        margin-top: 60vh;
+        margin-left: 70%;
+        height: 180px;
+    }
+    .person5{
+        margin-top: 7vh;
+        margin-left: 70%;
+        height: 100px;
+    }
+    .person6{
+        margin-top: 40vh;
+        margin-left: 75%;
+        height: 110px;
+    }
+    .heading{
+        font-size: 13vw;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .para{
+        width: 70%;
+        height:150px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .person1{
+        display: none;
+        width: 30%;
+    }
+    .person2{
+        /* display: none; */
+        margin-top: -1vh;
+        margin-left: 65%;
+        height: 170px;
+    }
+    .person3{
+        /* display: none; */
+        margin-top: 3vh;
+        margin-left: 15%;
+        height: 120px;
+    }
+    .person4{
+        display: none;
+    }
+    .person5{
+        display: none;
+    }
+    .person6{
+        /* display: none; */
+        margin-top: 55vh;
+        margin-left: 60%;
+
+    }
+    .heading{
+        font-size: 13vw;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .para{
+        width: 70%;
+        height:180px;
+    }
+}
