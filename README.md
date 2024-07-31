@@ -16,7 +16,7 @@ You can view a live demo of the project [here](https://sharif-islam96403.github.
 ## Setup
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/meeet-web-project.git
+    git clone https://github.com/sharif-islam96403/meeet-web-project.git
     ```
 2. Navigate to the project directory:
     ```
