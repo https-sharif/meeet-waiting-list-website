@@ -1,7 +1,8 @@
-# meeet-web-project
+# Meeet Waiting List Website
+
 My first web development project.
 
-I took inspiration from Codewell to create my first web design project. The website includes functionality with buttons and links, responsive divs for different screen sizes, and a waitlist feature. The template I used is linked below: <br>
+I took inspiration from Codewell to create my first web design project. The website includes functionality with buttons, responsive divs for different screen sizes, and a waitlist feature. The template I used is linked below: <br>
 [CodeWell Meeet Waitlist Template](https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273)
 
 ## Demo
@@ -16,7 +17,7 @@ You can view a live demo of the project [here](https://sharif-islam96403.github.
 ## Setup
 1. Clone the repository:
     ```
-    git clone https://github.com/sharif-islam96403/meeet-web-project.git
+    git clone https://github.com/https-sharif/meeet-web-project.git
     ```
 2. Navigate to the project directory:
     ```
@@ -26,7 +27,8 @@ You can view a live demo of the project [here](https://sharif-islam96403.github.
     ```
     open index.html
     ```
-## Contributing
+## Contributions
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
